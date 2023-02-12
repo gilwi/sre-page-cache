@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-  config.vm.box = "generic/debian11"
+  config.vm.box = "archlinux/archlinux"
 
   config.vm.box_check_update = true
 
